@@ -6,7 +6,7 @@ import org.springframework.data.mongodb.core.mapping.Document;
 @Document(collection ="book")
 public class book {
 
-    //@Id
+    @Id
     private Integer ID; //@ID identifies that ID field is unique
     private String Title;
     private String Author;
